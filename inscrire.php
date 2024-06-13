@@ -1,4 +1,6 @@
 <?php
+include "menu.php";
+
 session_start();
 require_once "connDB.php";
 $query = $connection->query("select * form DescriptionVoyage");
